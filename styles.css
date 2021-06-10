@@ -1,0 +1,348 @@
+/* Hero page  */
+
+body{
+  background-color: black!important;
+}
+
+.hero{
+  height: 100Vh;
+  background-color:black;
+  color: white;
+}
+/* top row with logo and clock */
+.rowTop{
+  height:60vh;
+  width: 100%;
+  margin : 0 !important;
+}
+
+/* bottom row with tech used project insider change background and time input */
+.rowBottom{
+  height: 40vh;
+  margin : 0 !important;
+  padding: 0 !important;
+  width: 100%;
+
+}
+/* Main square of the watch wich will hold the background */
+.clockBox{
+  background-image: url(https://images.unsplash.com/photo-1526655805340-274e69922288?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80);
+  background-size: cover;
+  height:60vh;
+  width:100%
+  padding: 24px;
+}
+/* Left side of top row with Logo */
+.LogoArea{
+  height: 100%;
+}
+.rowLogoArea{
+  height: 100%
+}
+.logoClock{
+  font-family: 'Six Caps', sans-serif;
+  font-size: 20em;
+  margin-bottom: 0px;
+  line-height: 0.9;
+}
+
+/* Bottom row Area left part with used tech and project insider  */
+.bottomLogoArea{
+  background-color: black;
+  height: 100%;
+}
+.textUnderLogo{
+  height: 100%;
+}
+.bottomTextContainer{
+  height: 100%
+}
+.textRow{
+  height: 50%;
+}
+.topBottomRow{
+  height: 50%;
+}
+.bottomClockArea{
+}
+.backgroundChangeBox{
+  height: 50%;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+.timeInputBox{
+  height: 50%;
+  margin-left: 0px;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+.backgroundButtonBox{
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  height: 50%;
+  width: 100%;
+}
+.clockSquare{
+  height: 100%;
+  width: 100%;
+  margin: 20px;
+}
+.clockwordRow{
+  height: 10%;
+}
+.Z{
+  font-size: 1vw;
+
+}
+.SkillList{
+  list-style-type: none;
+}
+.heroLogo{
+  padding-left: margin-left: 0 !important;
+  padding-right: 0 !important;
+}
+.tech{
+  font-weight: 900;
+}
+
+.circleBackground{
+  width:70px;
+  height:70px;
+  border-radius: 50px;
+}
+.RButton{
+  width:70px;
+  height:70px;
+  border-radius: 50px;
+  background-image: url(https://images.unsplash.com/photo-1517196084897-498e0abd7c2d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80);
+  background-size: cover;
+  border: 0px;
+}
+.LButton{
+  width:70px;
+  height:70px;
+  border-radius: 50px;
+  background-size: cover;
+  border: 0px;
+}
+.circleLeft{
+  background-color: white;
+  color: black;
+}
+.circleRight{
+  background-image: url(https://images.unsplash.com/photo-1517196084897-498e0abd7c2d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80);
+  background-size: cover;
+  color: black;
+}
+.colorText{
+  margin-bottom: 0px;
+  opacity: 70%;
+  text-align: center;
+
+
+}
+.whiteBar{
+  background-color: white;
+  height: 1px;
+  margin-top: 30px !important;
+}
+.gold{
+  color: #F1B345;
+}
+.timerButtonDiv{
+  height: 70px;
+  background-color: #151515;
+}
+.timeInputDiv{
+  border-style: solid;
+  border-width: 1px;
+  width: 50px;
+}
+
+
+.timerButton:hover {
+color: #F1B345;
+transition-delay:0.1s;
+
+}
+
+.showTime{
+  background-color: #151515;
+}
+.opacitySeventy{
+  opacity: 70%;
+}
+.X{
+  font-size: 2em;
+  font-family: sans-serif;
+  font-weight: 400;
+  opacity: 35%;
+  margin : 0 !important;
+
+
+}
+.bi-chevron-left{
+  height: 20px;
+  width: 20px;
+}
+
+
+.white{
+  background-color: white;
+  height: 100vh;
+  width: 100vw;
+  color: black;
+  background-color: green;
+}
+
+.pushLight{
+  opacity: 100%;
+  font-weight: 800;
+}
+.ukTimeLive{
+  font-size: 28px;
+  margin-bottom: 0px;
+  font-weight: 600;
+}
+
+#time{
+  font-size: 28px;
+  font-weight: 600;
+  border: none;
+  background-color: black;
+  color: white;
+
+}
+input[type="time"]::-webkit-calendar-picker-indicator{
+  filter: invert(97%) sepia(30%) saturate(5721%) hue-rotate(318deg) brightness(95%) contrast(98%);
+}
+.timerButton{
+  font-size: 28px;
+  font-weight: 600;
+  border: none;
+  color: white;
+  background-color: #151515;
+  height: 100%;
+  line-height: 1;
+
+}
+.buttonrightBG{
+  height: 100%;
+  width: 100%;
+}
+.inputTimeRow{
+  width: 100%;
+  margin : 0 !important;
+
+
+}
+.row1{
+  width: 100%;
+  margin : 0 !important;
+
+}
+.inputTimeRow{
+    margin : 0 !important;
+}
+.col{
+  margin : 0 !important;
+  padding: 0 !important;
+}
+.projectInsider{
+ margin-left: 15px;
+ white-space: nowrap;
+}
+.textUnderLogo{
+  margin: 10px;
+}
+.bottomLogoArea{
+  width: 100px;
+}
+
+@media only screen and (max-width: 991px) {
+  .backgroundChangeBox{
+    height: 100%;
+    background-color: black;
+  }
+  .timeInputBox{
+    height: 100%;
+    background-color: black;
+  }
+  .topBottomRow{
+    display: none !important;
+
+  }
+  .emptyCol{
+    display: none;
+  }
+  .bottomTextContainer{
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+
+  }
+  .textRow{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    width: auto;
+    padding-right: 150px;
+    padding-left: 150px;
+
+  }
+  .SkillList{
+    margin: 0px;
+    padding: 0px;
+  }
+  .projectInsider{
+    margin: 0px;
+    padding: 0px;
+  }
+  .textUnderLogo{
+    height: auto;
+    font-size: 20px;
+    text-align:left;
+
+  }
+  .projectInsider{
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    white-space: pre-line;
+    text-align: center;
+
+  }
+  br{
+    display: none;
+  }
+  .rowBottom{
+    height: auto;
+  }
+  .timeInputContainer{
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .logoClock{
+    font-size: 200px;
+  }
+  .heroLogo{
+    margin-bottom: 60px;
+    margin-top: 50px!important;
+  }
+  .clockBox{
+    height:50vh;
+    width:90vw!important;
+    padding: 24px;
+  }
+  .rowTop{
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .bottomLogoArea{
+    margin-top: 50px!important;
+  }
+.hero{
+  height: 90vh;
+}
